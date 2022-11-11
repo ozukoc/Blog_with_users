@@ -14,9 +14,8 @@
 
 
     ·
-    <a href="https://github.com/ozukoc/blog_with_users/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/ozukoc/blog_with_users/issues">Request Feature</a>
+    To Report a bug or request a feature you can mail me.
+
   </p>
 </div>
 
