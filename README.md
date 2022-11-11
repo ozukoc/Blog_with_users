@@ -1,13 +1,201 @@
-<h1>A Blog Website with user registration and commenting/posting system</h1>
-
-<h3>Backend: Flask and SQLAlchemy relational database and Jinja2 Dynamic Templating</h3>
-<h3>Frontend: Simple Bootstrap</h3>
+<a name="readme-top"></a>
 
 
-<h5>I made this project while learning flask and sql with a Udemy course. So for the frontend, there is simple bootstrap with simple text.</h5>
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-You can register users. Login/Logout and comment on posts with the logged in user account. All user passwords are encrypted and then added to database.<br>
-Right now you can only make posts with the first registered user account.(I call it admin account,since this is a personal blog website I think it makes sense.)<br>All the posts and comments are added to database.<br><br>This can be used as a template for any blog website. Just change the html and css and It is good to go. Hope you'll like it. =)
 
-You can see the live version on <a href="https://koc-blog.onrender.com/"> Here</a>
-I deployed it on render and used Postgresql for database. I added postgresql database information to the environment variables on render.com so if you want to run the database localy, <br> you can replace the  "uri" in "" app.config['SQLALCHEMY_DATABASE_URI'] = uri "" to  " 'sqlite:///blog.db' "
+
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/ozukoc/blog_with_users">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
+
+<h3 align="center">Blog Page</h3>
+
+  <p align="center">
+    with Users and Comments
+    <br />
+    <a href="https://github.com/ozukoc/blog_with_users"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/ozukoc/blog_with_users">View Demo</a>
+    ·
+    <a href="https://github.com/ozukoc/blog_with_users/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/ozukoc/blog_with_users/issues">Request Feature</a>
+  </p>
+</div>
+
+
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
+
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+[![Blog Page Screen Shot][product-screenshot]](https://prnt.sc/CdxThx0S1ycM)
+
+I created this Blog-web-app while learning Flask. Within this project there are:
+
+<li>User Registration/Login/Logout System</li>
+<li>SQLAlchemy Relational Database</li>
+<li>Secure hashed and also salted passwords</li>
+<li>Users can create Blog Posts and comments.</li>
+
+I used Jinja templates to make it more dynamic. And just to make it a little prettier I used Bootstrap in UI. Hope you like it!
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+### Built With
+
+
+* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+* [![Flask][Flask]][Flask-url]
+* [![Python][Ppython.org/]][Python-url]
+* [![SQLAlchemy][sqlalchemy.org]][sqlalchemy-url]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+This is an example of how you may give instructions on setting up your project locally.
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+This is an example of how to list things you need to use the software and how to install them.
+* install virtual environment package
+  ```sh
+  pip install virtualenv
+  ```
+
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/ozukoc/blog_with_users.git
+   ```
+3. Create virtual environment
+   ```sh
+   python -m virtualenv .
+   .\scripts\activate
+   ```
+4. Install Required packages
+   ```js
+   pip install -r requirements.txt
+   ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- USAGE EXAMPLES -->
+## Usage
+
+You need to create your .env file and entera Secret Key, or you can paste this in main.py at 21st line.
+```
+SECRET_KEY = os.urandom(32)
+app.config['SECRET_KEY'] = SECRET_KEY
+```
+
+After that you need to set set a DATABASE_URL variable in your .env file to show the adress of your Database or you can replace the  "uri" in "" app.config['SQLALCHEMY_DATABASE_URI'] = uri "" to  " 'sqlite:///blog.db' "
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- CONTACT -->
+## Contact
+
+Your Name - [@KocOzdes](https://twitter.com/KocOzdes) - ozdes24@gmail.com
+
+Project Link: [https://github.com/ozukoc/blog_with_users](https://github.com/ozukoc/blog_with_users)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/ozukoc/blog_with_users.svg?style=for-the-badge
+[contributors-url]: https://github.com/ozukoc/blog_with_users/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/ozukoc/blog_with_users.svg?style=for-the-badge
+[forks-url]: https://github.com/gozukocblog_with_users/network/members
+[stars-shield]: https://img.shields.io/github/stars/ozukoc/blog_with_users.svg?style=for-the-badge
+[stars-url]: https://github.com/ozukoc/blog_with_users/stargazers
+[issues-shield]: https://img.shields.io/github/issues/ozukoc/blog_with_users.svg?style=for-the-badge
+[issues-url]: https://github.com/ozukoc/blog_with_users/issues
+[license-shield]: https://img.shields.io/github/license/ozukoc/blog_with_users.svg?style=for-the-badge
+[license-url]: https://github.com/ozukoc/blog_with_users/blob/master/LICENSE.txt
+
+[product-screenshot]: https://prnt.sc/CdxThx0S1ycM
+
+[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+[Bootstrap-url]: https://getbootstrap.com
+[Python.org]: https://img.shields.io/badge/-python-informational
+[Python-url]:https://www.python.org/
+[Flask]: https://img.shields.io/badge/-Flask-black
+[Flask-url]:https://flask.palletsprojects.com/en/2.2.x/
+[sqlalchemy.org]: https://img.shields.io/badge/-SqlAlchemy-red
+[sqlalchemy-url]:https://www.sqlalchemy.org/
