@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/ozukoc/blog_with_users">
-    <img src="static\img\Blog-SS.png" alt="Logo" width="80" height="80">
+    <img src="static\img\Blog-SS.png" alt="Logo" width="280" height="280">
   </a>
 
 <h3 align="center">Blog Page</h3>
