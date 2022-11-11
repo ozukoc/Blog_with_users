@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/ozukoc/blog_with_users">
-    <img src="https://prnt.sc/CdxThx0S1ycM" alt="Logo" width="80" height="80">
+    <img src="static\img\Blog-SS.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Blog Page</h3>
@@ -13,7 +13,7 @@
     with Users and Comments
 
 
-    ·
+    
     To Report a bug or request a feature you can mail me.
 
   </p>
