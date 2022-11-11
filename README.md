@@ -1,31 +1,18 @@
 <a name="readme-top"></a>
 
-
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="https://github.com/ozukoc/blog_with_users">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://prnt.sc/CdxThx0S1ycM" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Blog Page</h3>
 
   <p align="center">
     with Users and Comments
-    <br />
-    <a href="https://github.com/ozukoc/blog_with_users"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/ozukoc/blog_with_users">View Demo</a>
+
+
     ·
     <a href="https://github.com/ozukoc/blog_with_users/issues">Report Bug</a>
     ·
@@ -64,7 +51,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Blog Page Screen Shot][product-screenshot]](https://prnt.sc/CdxThx0S1ycM)
+
 
 I created this Blog-web-app while learning Flask. Within this project there are:
 
@@ -85,7 +72,7 @@ I used Jinja templates to make it more dynamic. And just to make it a little pre
 
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 * [![Flask][Flask]][Flask-url]
-* [![Python][Ppython.org/]][Python-url]
+* [![Python]][Python-url]
 * [![SQLAlchemy][sqlalchemy.org]][sqlalchemy-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -177,23 +164,13 @@ Project Link: [https://github.com/ozukoc/blog_with_users](https://github.com/ozu
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/ozukoc/blog_with_users.svg?style=for-the-badge
-[contributors-url]: https://github.com/ozukoc/blog_with_users/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/ozukoc/blog_with_users.svg?style=for-the-badge
-[forks-url]: https://github.com/gozukocblog_with_users/network/members
-[stars-shield]: https://img.shields.io/github/stars/ozukoc/blog_with_users.svg?style=for-the-badge
-[stars-url]: https://github.com/ozukoc/blog_with_users/stargazers
-[issues-shield]: https://img.shields.io/github/issues/ozukoc/blog_with_users.svg?style=for-the-badge
-[issues-url]: https://github.com/ozukoc/blog_with_users/issues
-[license-shield]: https://img.shields.io/github/license/ozukoc/blog_with_users.svg?style=for-the-badge
-[license-url]: https://github.com/ozukoc/blog_with_users/blob/master/LICENSE.txt
+
 
 [product-screenshot]: https://prnt.sc/CdxThx0S1ycM
 
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
-[Python.org]: https://img.shields.io/badge/-python-informational
+[Python]: https://img.shields.io/badge/-python-informational
 [Python-url]:https://www.python.org/
 [Flask]: https://img.shields.io/badge/-Flask-black
 [Flask-url]:https://flask.palletsprojects.com/en/2.2.x/
